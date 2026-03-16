@@ -1,0 +1,40 @@
+[
+  {
+    "directory": "D:\\Vitis_HLS\\viterbi\\vit",
+    "arguments": [
+      "D:\\Xilinx\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=viterbi_decoder",
+      "-c",
+      "D:\\Internship\\GMSK\\vit_reg_exg\\src\\bmu.cpp"
+    ],
+    "file": "D:\\Internship\\GMSK\\vit_reg_exg\\src\\bmu.cpp"
+  },
+  {
+    "directory": "D:\\Vitis_HLS\\viterbi\\vit",
+    "arguments": [
+      "D:\\Xilinx\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=D:\\Xilinx\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=viterbi_decoder",
+      "-c",
+      "D:\\Internship\\GMSK\\vit_reg_exg\\src\\viterbi_decoder.cpp"
+    ],
+    "file": "D:\\Internship\\GMSK\\vit_reg_exg\\src\\viterbi_decoder.cpp"
+  },
+  {
+    "directory": "D:\\Vitis_HLS\\viterbi\\vit",
+    "arguments": [
+      "D:\\Xilinx\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=D:\\Xilinx\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=D:\\Xilinx\\2025.2\\Vitis\\include",
+      "-c",
+      "D:\\Internship\\GMSK\\vit_reg_exg\\tb\\viterbi_decoder_tb.cpp"
+    ],
+    "file": "D:\\Internship\\GMSK\\vit_reg_exg\\tb\\viterbi_decoder_tb.cpp"
+  }
+]

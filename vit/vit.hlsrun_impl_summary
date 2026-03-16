@@ -1,0 +1,272 @@
+<ENTRY>
+{
+ "thisFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\vit.hlsrun_impl_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/13/26 13:58:57",
+ "timestampMillis": "1773390537808",
+ "buildStep": {
+  "cmdId": "85bb810c-af22-4f9a-88b2-62633f3f8234",
+  "name": "vitis-run",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\logs\\vit.steps.log",
+  "commandLine": "D:/Xilinx/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg --work_dir vit ",
+  "args": [
+   "--mode",
+   "hls",
+   "--impl",
+   "--config",
+   "D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg",
+   "--work_dir",
+   "vit"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:58:57",
+ "timestampMillis": "1773390537809",
+ "status": {
+  "cmdId": "85bb810c-af22-4f9a-88b2-62633f3f8234",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541205",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IMPL",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "viterbi_decoder",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\bmu.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\constants.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\viterbi_decoder.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\bmu.cpp",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\viterbi_decoder.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "."
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541206",
+ "buildStep": {
+  "cmdId": "ba92830b-edba-4917-b88e-104790a06d30",
+  "name": "",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541208",
+ "status": {
+  "cmdId": "ba92830b-edba-4917-b88e-104790a06d30",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541210",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541211",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\report\\verilog\\export_syn.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541211",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\report\\verilog\\export_syn.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541212",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\verilog",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541212",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\report\\verilog\\export_impl.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:01",
+ "timestampMillis": "1773390541213",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\impl\\report\\verilog\\export_impl.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545064",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_RTL_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545064",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_PLACE_AND_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545065",
+ "status": {
+  "cmdId": "ba92830b-edba-4917-b88e-104790a06d30",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545142",
+ "status": {
+  "cmdId": "85bb810c-af22-4f9a-88b2-62633f3f8234",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545142",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:59:05",
+ "timestampMillis": "1773390545143",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

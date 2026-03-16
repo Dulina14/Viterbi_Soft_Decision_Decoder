@@ -1,0 +1,160 @@
+<ENTRY>
+{
+ "thisFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\vit.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/13/26 13:56:36",
+ "timestampMillis": "1773390396170",
+ "buildStep": {
+  "cmdId": "27e44524-6906-45e5-a7dd-06dbc29a8d6f",
+  "name": "vitis-run",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\logs\\vit.steps.log",
+  "commandLine": "D:/Xilinx/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg --work_dir vit ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg",
+   "--work_dir",
+   "vit"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:56:36",
+ "timestampMillis": "1773390396170",
+ "status": {
+  "cmdId": "27e44524-6906-45e5-a7dd-06dbc29a8d6f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/13/26 13:56:39",
+ "timestampMillis": "1773390399494",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "viterbi_decoder",
+     "file": "D:/Vitis_HLS\\viterbi\\vit\\vit\\viterbi_decoder.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\bmu.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\constants.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\viterbi_decoder.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\bmu.cpp",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\viterbi_decoder.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "."
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/13/26 13:56:39",
+ "timestampMillis": "1773390399495",
+ "buildStep": {
+  "cmdId": "ea0ed9e7-2fb9-4c94-aa6b-e5ed24759caf",
+  "name": "",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:56:39",
+ "timestampMillis": "1773390399495",
+ "status": {
+  "cmdId": "ea0ed9e7-2fb9-4c94-aa6b-e5ed24759caf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:56:45",
+ "timestampMillis": "1773390405579",
+ "status": {
+  "cmdId": "ea0ed9e7-2fb9-4c94-aa6b-e5ed24759caf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:56:45",
+ "timestampMillis": "1773390405662",
+ "status": {
+  "cmdId": "27e44524-6906-45e5-a7dd-06dbc29a8d6f",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:56:45",
+ "timestampMillis": "1773390405663",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:56:45",
+ "timestampMillis": "1773390405663",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

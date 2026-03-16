@@ -1,0 +1,249 @@
+<ENTRY>
+{
+ "thisFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\vit.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "03/13/26 13:53:32",
+ "timestampMillis": "1773390212817",
+ "buildStep": {
+  "cmdId": "a8ddef8b-8c62-4ee9-8853-dd915272658e",
+  "name": "v++",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\logs\\vit.steps.log",
+  "commandLine": "D:/Xilinx/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg --work_dir vit ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\Vitis_HLS\\viterbi\\vit\\hls_config.cfg",
+   "--work_dir",
+   "vit"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/Vitis_HLS\\viterbi\\vit\\hls_config.cfg",
+    "content": "part=xcku5p-ffvb676-2-e\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nclock=10ns\nsyn.file=D:/Internship/GMSK/vit_reg_exg/include/bmu.h\nsyn.file=D:/Internship/GMSK/vit_reg_exg/include/constants.h\nsyn.file=D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h\nsyn.file=D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp\nsyn.file=D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp\ntb.file=D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt\ntb.file=D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp\ntb.file=D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt\ntb.file=D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt\ntb.file=D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt\nsyn.top=viterbi_decoder"
+   }
+  ],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:53:32",
+ "timestampMillis": "1773390212817",
+ "status": {
+  "cmdId": "a8ddef8b-8c62-4ee9-8853-dd915272658e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216046",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "viterbi_decoder",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\bmu.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\constants.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\include\\viterbi_decoder.h",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\bmu.cpp",
+     "D:/Internship\\GMSK\\vit_reg_exg\\src\\viterbi_decoder.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "."
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216047",
+ "buildStep": {
+  "cmdId": "7d2f2e31-6001-413d-8a44-a93884300987",
+  "name": "",
+  "logFile": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Vitis_HLS\\viterbi\\vit"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216048",
+ "status": {
+  "cmdId": "7d2f2e31-6001-413d-8a44-a93884300987",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216048",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216048",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:53:36",
+ "timestampMillis": "1773390216048",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246558",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246558",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246559",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246559",
+ "status": {
+  "cmdId": "7d2f2e31-6001-413d-8a44-a93884300987",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246699",
+ "status": {
+  "cmdId": "a8ddef8b-8c62-4ee9-8853-dd915272658e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246716",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\reports\\v++_compile_vit_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "03/13/26 13:54:06",
+ "timestampMillis": "1773390246717",
+ "report": {
+  "path": "D:/Vitis_HLS\\viterbi\\vit\\vit\\reports\\.db\\v++_compile_vit_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

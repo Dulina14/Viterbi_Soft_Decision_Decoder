@@ -1,0 +1,3 @@
+relativeroot=D:/Vitis_HLS/viterbi/vit
+original_argv=--mode hls --impl --config D:\Vitis_HLS\viterbi\vit\hls_config.cfg --work_dir vit 
+

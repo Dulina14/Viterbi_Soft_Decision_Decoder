@@ -1,0 +1,20 @@
+{
+  "0": {
+    "basicblocks": 965,
+    "calls": "",
+    "control_depth": 2,
+    "def_use_depth": 17,
+    "file": "viterbi_decoder.cpp",
+    "fileloc": 101,
+    "instructions": 5741,
+    "loads": {
+      "L": 338
+    },
+    "memory_accesses": 516,
+    "name": "viterbi_decoder",
+    "stores": {
+      "L": 401
+    },
+    "total_instructions": 5741
+  }
+}

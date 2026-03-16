@@ -1,0 +1,53 @@
+  **** HLS Build v 6295257
+INFO: [HLS 200-2005] Using work_dir D:/Vitis_HLS/viterbi/vit/vit 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Vitis_HLS/viterbi/vit/vit'.
+INFO: [HLS 200-1611] Setting target device to 'xcku5p-ffvb676-2-e'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/bmu.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/bmu.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/constants.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/constants.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' from hls_config.cfg(15)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' from hls_config.cfg(17)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=viterbi_decoder' from hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku5p-ffvb676-2-e' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+alloc: invalid block: 000001E32F4954A0: c0 36
+
+****** Vivado v (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Fri Mar 13 13:59:02 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+Abnormal program termination (EXCEPTION_BREAKPOINT)
+Please check 'D:/Vitis_HLS/viterbi/vit/vit/hls/impl/ip/hs_err_pid17232.log' for details
+ERROR: [IMPL 213-28] Failed to generate IP.
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.83 seconds; peak allocated memory: 223.141 MB.

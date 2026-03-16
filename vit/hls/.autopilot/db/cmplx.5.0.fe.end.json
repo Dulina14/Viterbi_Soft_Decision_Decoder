@@ -1,0 +1,59 @@
+{
+    "1": {
+        "name": "viterbi_decoder_Pipeline_TRACEBACK",
+        "file": "D:\/Internship\/GMSK\/vit_reg_exg\/src\/viterbi_decoder.cpp",
+        "fileloc": "296",
+        "instructions": "234",
+        "total_instructions": "234",
+        "calls": "",
+        "basicblocks": "21",
+        "memory_accesses": "85",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "83"
+        },
+        "stores": {
+            "L": "20"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "viterbi_decoder",
+        "file": "viterbi_decoder.cpp",
+        "fileloc": "101",
+        "instructions": "476",
+        "total_instructions": "2110",
+        "calls": "2 1",
+        "basicblocks": "1",
+        "memory_accesses": "0",
+        "control_depth": "0",
+        "def_use_depth": "129",
+        "loads": {
+            "L": "80"
+        }
+    },
+    "2": {
+        "name": "viterbi_decoder_Pipeline_TRELLIS",
+        "file": "D:\/Internship\/GMSK\/vit_reg_exg\/src\/viterbi_decoder.cpp",
+        "fileloc": "198",
+        "instructions": "1400",
+        "total_instructions": "1400",
+        "calls": "",
+        "basicblocks": "4",
+        "memory_accesses": "194",
+        "control_depth": "1",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "129"
+        },
+        "stores": {
+            "L": "194"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

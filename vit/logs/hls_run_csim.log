@@ -1,0 +1,152 @@
+  **** HLS Build v 6295257
+INFO: [HLS 200-2005] Using work_dir D:/Vitis_HLS/viterbi/vit/vit 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Vitis_HLS/viterbi/vit/vit'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/bmu.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/bmu.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/constants.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/constants.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' from hls_config.cfg(15)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' from hls_config.cfg(17)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku5p-ffvb676-2-e' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcku5p-ffvb676-2-e'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../../../Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp in debug mode
+   Compiling ../../../../../../../Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp in debug mode
+   Compiling ../../../../../../../Internship/GMSK/vit_reg_exg/src/bmu.cpp in debug mode
+   Generating csim.exe
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp:57:
+In file included from D:/Xilinx/2025.2/Vitis/include\ap_int.h:10:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_half.h:26:
+In file included from D:/Xilinx/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/Xilinx/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:93:
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/../include/viterbi_decoder.h:4:
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/../include/constants.h:22:
+In file included from D:/Xilinx/2025.2/Vitis/include\ap_int.h:10:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_half.h:26:
+In file included from D:/Xilinx/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/Xilinx/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/bmu.cpp:1:
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/../include/bmu.h:4:
+In file included from ../../../../../../../Internship/GMSK/vit_reg_exg/src/../include/constants.h:22:
+In file included from D:/Xilinx/2025.2/Vitis/include\ap_int.h:10:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_common.h:668:
+In file included from D:/Xilinx/2025.2/Vitis/include\etc/ap_private.h:68:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_half.h:26:
+In file included from D:/Xilinx/2025.2/Vitis/include/etc/hls_half_fpo.h:19:
+In file included from D:/Xilinx/2025.2/Vitis/include\hls_fpo.h:140:
+In file included from D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:150:
+D:/Xilinx/2025.2/Vitis/include\gmp.h:58:9: warning: '__GMP_LIBGMP_DLL' macro redefined [-Wmacro-redefined]
+#define __GMP_LIBGMP_DLL  0
+        ^
+D:/Xilinx/2025.2/Vitis/include/floating_point_v7_1_bitacc_cmodel.h:142:9: note: previous definition is here
+#define __GMP_LIBGMP_DLL 1
+        ^
+1 warning generated.
++========================================================+
+|     VITERBI DECODER TESTBENCH  --  Vitis HLS           |
+|  Rate 1/2  |  K=7  |  g0=171oct  |  g1=133oct         |
+|  Block:  16 symbols  |  Test: 10000 bits               |
++========================================================+
+
+[GEN] Generating 10000 random information bits (seed=42)...
+[ENC] Running reference convolutional encoder (per-block, init_state=0)...
+[ENC] Done: 10000 bits -> 20000 encoded bits (625 blocks of 16)
+[FILE] Written: ./input_bits.txt       (10000 bits)
+[FILE] Written: ./encoded_bits.txt     (20000 bits)
+[FILE] Written: ./reference_bits.txt   (10000 bits)
+
+[DEC] Starting decoder: 625 blocks x 16 symbols/block...
+[DEC]    100 / 625 blocks complete
+[DEC]    200 / 625 blocks complete
+[DEC]    300 / 625 blocks complete
+[DEC]    400 / 625 blocks complete
+[DEC]    500 / 625 blocks complete
+[DEC]    600 / 625 blocks complete
+[DEC]    625 / 625 blocks complete
+[FILE] Written: ./decoded_bits.txt     (10000 bits from 625 blocks)
+
+
++=======================================================+
+|        VITERBI DECODER  --  BER REPORT               |
+|=======================================================|
+| Decoder config                                        |
+|   Rate            : 1/2                               |
+|   Constraint K    : 7                                 |
+|   g0 / g1         : 171 / 133  (octal)               |
+|   Block size      : 16 symbols  (16 decoded bits)    |
+|   Blocks tested   : 625                             |
+|=======================================================|
+| OVERALL RESULTS                                       |
+|   Total bits tested : 10000                           |
+|   Correct bits      : 10000                           |
+|   Errors            : 0                               |
+|   Bit Error Rate    : 0.000000                      |
+|   Accuracy          : 100.00%                       |
+|=======================================================|
+| CORE BITS  (positions 0-9 per block)                 |
+|   Bits tested  : 6250                                 |
+|   Errors       : 0                                    |
+|   BER          : 0.000000                           |
+|=======================================================|
+| TAIL BITS  (positions 10-15 per block)                |
+|   Bits tested  : 3750                                 |
+|   Errors       : 0                                    |
+|   BER          : 0.000000                           |
+|=======================================================|
+| FIRST BAD BLOCKS (max 5)                             |
+|   No block errors -- perfect decode!                |
++=======================================================+
+
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 1
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 11.028 seconds; peak allocated memory: 156.457 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 15s

@@ -1,0 +1,105 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=viterbi_decoder" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:106:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port = encoded_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:107:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port = decoded_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:108:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port = return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:127:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = pm complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:128:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = pm_next complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:145:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = survivor complete dim = 2" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:155:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = rx_sym complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:177:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:190:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:200:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:211:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:266:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:283:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:297:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = decoded_arr complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:328:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="viterbi_decoder" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp:6:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="parity7" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp:23:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="encoder_output" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp:38:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="hamming2" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp:29:23" msg_body="Inlining function 'parity7(ap_uint&lt;7&gt;)' into 'encoder_output(ap_uint&lt;6&gt;, ap_uint&lt;1&gt;)'">
+        <args Callee="parity7(ap_uint&lt;7&gt;)" Callee-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp Line 5 Column 0" Caller="encoder_output(ap_uint&lt;6&gt;, ap_uint&lt;1&gt;)" Caller-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp Line 22 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:225:30" msg_body="Inlining function 'hamming2(ap_uint&lt;2&gt;, ap_uint&lt;2&gt;)' into 'viterbi_decoder(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="hamming2(ap_uint&lt;2&gt;, ap_uint&lt;2&gt;)" Callee-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp Line 37 Column 0" Caller="viterbi_decoder(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp Line 104 Column 0"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:223:29" msg_body="Inlining function 'encoder_output(ap_uint&lt;6&gt;, ap_uint&lt;1&gt;)' into 'viterbi_decoder(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)'">
+        <args Callee="encoder_output(ap_uint&lt;6&gt;, ap_uint&lt;1&gt;)" Callee-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp Line 22 Column 0" Caller="viterbi_decoder(hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;, hls::stream&lt;ap_uint&lt;32&gt;, 0&gt;&amp;)" Caller-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp Line 104 Column 0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:209:9" msg_body="Loop 'ACS' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="ACS"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:264:9" msg_body="Loop 'COPY_PM' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="COPY_PM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'PACK_OUT' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:326:5) in function 'viterbi_decoder' completely with a factor of 16">
+        <args Factor="16" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:326:5" LoopName="PACK_OUT"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'MIN_FIND' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:281:5) in function 'viterbi_decoder' completely with a factor of 63">
+        <args Factor="63" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:281:5" LoopName="MIN_FIND"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'ACS' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:209:9) in function 'viterbi_decoder' completely with a factor of 64">
+        <args Factor="64" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:209:9" LoopName="ACS"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'COPY_PM' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:264:9) in function 'viterbi_decoder' completely with a factor of 64">
+        <args Factor="64" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:264:9" LoopName="COPY_PM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'INIT_PM' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:188:5) in function 'viterbi_decoder' completely with a factor of 64">
+        <args Factor="64" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:188:5" LoopName="INIT_PM"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0" msg_body="Unrolling loop 'EXTRACT_SYMS' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:175:5) in function 'viterbi_decoder' completely with a factor of 16">
+        <args Factor="16" LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:175:5" LoopName="EXTRACT_SYMS"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:144:16" msg_body="Applying array_partition to 'survivor': Complete partitioning on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="survivor"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:154:14" msg_body="Applying array_partition to 'rx_sym': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="rx_sym"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:296:16" msg_body="Applying array_partition to 'decoded_arr': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="decoded_arr"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-358" msg_severity="WARNING" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:312:27" msg_body="Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations."/>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:302:5" msg_body="pipeline   1 viterbi_decoder config_compile -pipeline_loops 64TRACEBACK D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:302:5">
+        <args LoopLoc="D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:302:5" LoopLoc-DebugLoc="File D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp Line 302 Column 5" LoopName="TRACEBACK" PragmaFunction="viterbi_decoder" PragmaInferReason="config_compile -pipeline_loops 64" PragmaIsAuto="1" PragmaType="pipeline"/>
+    </msg>
+</xilinx:hls_fe_msgs>

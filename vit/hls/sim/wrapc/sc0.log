@@ -1,0 +1,8 @@
+   Build using "D:/Xilinx/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_viterbi_decoder.cpp
+   Compiling apatb_viterbi_decoder_util.cpp
+   Compiling bmu.cpp_pre.cpp.tb.cpp
+   Compiling viterbi_decoder.cpp_pre.cpp.tb.cpp
+   Compiling viterbi_decoder_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_viterbi_decoder_ir.ll
+   Generating cosim.tv.exe

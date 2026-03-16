@@ -1,0 +1,158 @@
+  **** HLS Build v 6295257
+INFO: [HLS 200-2005] Using work_dir D:/Vitis_HLS/viterbi/vit/vit 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Vitis_HLS/viterbi/vit/vit'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/bmu.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/bmu.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/constants.h' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/constants.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/include/viterbi_decoder.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding design file 'D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/input_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/viterbi_decoder_tb.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' from hls_config.cfg(15)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/decoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' from hls_config.cfg(16)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/encoded_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' from hls_config.cfg(17)
+INFO: [HLS 200-10] Adding test bench file 'D:/Internship/GMSK/vit_reg_exg/tb/reference_bits.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=viterbi_decoder' from hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=.%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xcku5p-ffvb676-2-e' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xcku5p-ffvb676-2-e'
+INFO: [HLS 200-1465] Applying config ini 'clock=10ns' from hls_config.cfg(7)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Vitis_HLS/viterbi/vit/vit/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 4.125 seconds; current allocated memory: 155.234 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 12.962 seconds; current allocated memory: 157.918 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 5,263 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,741 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,386 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,258 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,938 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,053 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,987 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,987 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,907 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,909 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,923 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Vitis_HLS/viterbi/vit/vit/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-131] Inlining function 'parity7(ap_uint<7>)' into 'encoder_output(ap_uint<6>, ap_uint<1>)' (D:/Internship/GMSK/vit_reg_exg/src/bmu.cpp:29:23)
+INFO: [HLS 214-131] Inlining function 'hamming2(ap_uint<2>, ap_uint<2>)' into 'viterbi_decoder(hls::stream<ap_uint<32>, 0>&, hls::stream<ap_uint<32>, 0>&)' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:225:30)
+INFO: [HLS 214-131] Inlining function 'encoder_output(ap_uint<6>, ap_uint<1>)' into 'viterbi_decoder(hls::stream<ap_uint<32>, 0>&, hls::stream<ap_uint<32>, 0>&)' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:223:29)
+INFO: [HLS 214-291] Loop 'ACS' is marked as complete unroll implied by the pipeline pragma (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:209:9)
+INFO: [HLS 214-291] Loop 'COPY_PM' is marked as complete unroll implied by the pipeline pragma (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:264:9)
+INFO: [HLS 214-186] Unrolling loop 'PACK_OUT' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:326:5) in function 'viterbi_decoder' completely with a factor of 16 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'MIN_FIND' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:281:5) in function 'viterbi_decoder' completely with a factor of 63 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'ACS' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:209:9) in function 'viterbi_decoder' completely with a factor of 64 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'COPY_PM' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:264:9) in function 'viterbi_decoder' completely with a factor of 64 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'INIT_PM' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:188:5) in function 'viterbi_decoder' completely with a factor of 64 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-186] Unrolling loop 'EXTRACT_SYMS' (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:175:5) in function 'viterbi_decoder' completely with a factor of 16 (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:104:0)
+INFO: [HLS 214-248] Applying array_partition to 'survivor': Complete partitioning on dimension 2. (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:144:16)
+INFO: [HLS 214-248] Applying array_partition to 'rx_sym': Complete partitioning on dimension 1. (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:154:14)
+INFO: [HLS 214-248] Applying array_partition to 'decoded_arr': Complete partitioning on dimension 1. (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:296:16)
+WARNING: [HLS 214-358] Array transformation on index using bit extension logic may lead to poor performance. Please use int or long for array index computation to benefit from optimizations. (D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:312:27)
+INFO: [HLS 214-376] Pipelining loop< TRACEBACK> at D:/Internship/GMSK/vit_reg_exg/src/viterbi_decoder.cpp:302:5 due to pipeline_loops threshold
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.709 seconds; current allocated memory: 159.785 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 159.785 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 168.801 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 171.422 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.362 seconds; current allocated memory: 201.070 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.569 seconds; current allocated memory: 215.969 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'viterbi_decoder' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'viterbi_decoder_Pipeline_TRELLIS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TRELLIS'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'TRELLIS'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.824 seconds; current allocated memory: 231.012 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.476 seconds; current allocated memory: 232.137 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'viterbi_decoder_Pipeline_TRACEBACK' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'TRACEBACK'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'TRACEBACK'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.35 seconds; current allocated memory: 232.578 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 232.836 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'viterbi_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.253 seconds; current allocated memory: 236.898 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.116 seconds; current allocated memory: 237.059 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'viterbi_decoder_Pipeline_TRELLIS' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'viterbi_decoder_Pipeline_TRELLIS' pipeline 'TRELLIS' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_2_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'viterbi_decoder_Pipeline_TRELLIS'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.482 seconds; current allocated memory: 248.652 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'viterbi_decoder_Pipeline_TRACEBACK' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'viterbi_decoder_Pipeline_TRACEBACK' pipeline 'TRACEBACK' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_129_6_1_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'viterbi_decoder_Pipeline_TRACEBACK'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.832 seconds; current allocated memory: 277.285 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'viterbi_decoder' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'viterbi_decoder/encoded_in' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'viterbi_decoder/decoded_out' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'viterbi_decoder' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'viterbi_decoder'.
+INFO: [RTMG 210-278] Implementing memory 'viterbi_decoder_survivor_RAM_AUTO_1R1W' using auto RAMs.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.37 seconds; current allocated memory: 281.668 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.653 seconds; current allocated memory: 294.855 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Vitis_HLS/viterbi/vit/vit/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.887 seconds; current allocated memory: 309.672 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for viterbi_decoder.
+INFO: [VLOG 209-307] Generating Verilog RTL for viterbi_decoder.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 144.30 MHz
+INFO: [HLS 200-112] Total CPU user time: 8 seconds. Total CPU system time: 1 seconds. Total elapsed time: 32.307 seconds; peak allocated memory: 309.723 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 36s

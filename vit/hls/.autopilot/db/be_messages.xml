@@ -1,0 +1,21 @@
+<msgs>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 4.125 seconds; current allocated memory: 155.234 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 12.962 seconds; current allocated memory: 157.918 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.709 seconds; current allocated memory: 159.785 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 159.785 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 168.801 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 171.422 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.362 seconds; current allocated memory: 201.070 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.569 seconds; current allocated memory: 215.969 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-1470" tags="SCHEDULE,VITIS_THROUGHPUT" msg_body="Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'TRELLIS'"/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.824 seconds; current allocated memory: 231.012 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.476 seconds; current allocated memory: 232.137 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-1470" tags="SCHEDULE,VITIS_THROUGHPUT" msg_body="Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'TRACEBACK'"/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.35 seconds; current allocated memory: 232.578 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 232.836 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.253 seconds; current allocated memory: 236.898 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.116 seconds; current allocated memory: 237.059 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.482 seconds; current allocated memory: 248.652 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.832 seconds; current allocated memory: 277.285 MB."/>
+<msg msg_severity="INFO" msg_id="HLS 200-111" tags="RUNTIME" msg_body="Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.37 seconds; current allocated memory: 281.668 MB."/>
+</msgs>
